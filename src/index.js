@@ -27,9 +27,16 @@ class Menu extends React.Component{
 class Formulario extends React.Component{
     render(){
         return(
-            <div>
+            <div id='contenedorForm'>
                 <form>
-                <input type="text" placeholder='llevate esta'/>
+                    <h1>Formulario</h1>
+                    <label>Surrender al 20</label>
+                    <input type="text"/>
+                    <label>Surrender al 20</label>
+                    <input type="text"/>
+                    <label>Surrender al 20</label>
+                    <input type="text"/>
+                    <input type="button" value="Enviar" />
                 </form>
             </div>
             
