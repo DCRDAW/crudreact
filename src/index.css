@@ -1,0 +1,24 @@
+body{
+  font-family: sans-serif;
+  background-color: #D9F1F1;
+}
+#contenedor{
+  overflow: hidden;
+}
+aside{
+  background-color: #A4C6F5;
+  min-height: 200px;
+  float: left;
+  padding-right: 50px;
+}
+#contenedorForm{
+  background-color: #3780EA;
+  min-height: 200px;
+}
+ol{
+  list-style: none;
+  font-weight: bold;
+}
+li{
+  margin: 10px 5px;
+}
