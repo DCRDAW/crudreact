@@ -4,28 +4,43 @@ form{
     height: 300px;
     flex-direction: column;
     justify-content: space-evenly;
-}
-body{
+  }
+  body{
     font-family: sans-serif;
     background-color: #D9F1F1;
-}
-#contenedor{
+  }
+  #contenedor{
     overflow: hidden;
-}
-aside{
+  }
+  aside{
     background-color: #A4C6F5;
-    min-height: 200px;
+    min-height: 700px;
     float: left;
     padding-right: 50px;
-}
-#contenedorForm{
+  }
+  #contenedorForm{
     background-color: #3780EA;
     min-height: 200px;
-}
-ol{
+  }
+  ol{
     list-style: none;
     font-weight: bold;
-}
-li{
+  }
+  li{
     margin: 10px 5px;
-}
+  }
+  .titulo{
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .cuadro{
+    
+    width: 100%;
+    background-color: violet;
+  }
+  .Resultados{
+    width: 40%;
+    min-height: 300px;
+    max-height: 400px;
+  }
