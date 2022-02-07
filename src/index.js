@@ -62,11 +62,11 @@ class Formulario extends React.Component{
           <div id='contenedorForm'>
               <form onSubmit={this.handleSumbit}>
                   <h1>Formulario</h1>
-                  <label>Surrender al 20</label>
+                  <label>Input1</label>
                   <input type="text"/>
-                  <label>Surrender al 20</label>
+                  <label>Input2</label>
                   <input type="text"/>
-                  <label>Surrender al 20</label>
+                  <label>Input3</label>
                   <input type="text"/>
                   <button onClick={this._onButtonClick}>Button</button>
                   
@@ -88,8 +88,8 @@ function Numaleat(){
 function Resultado(){
   let numaleat= Math.floor(Math.random() * (5 - 3 + 1) + 3)
   let array=[]
-  let titulos= ['AlFin','Acabo','Esto','Madre','Mia']
-  let textos= ['React','Te','Voy','A','*Censurado*']
+  let titulos= ['Hola','Vaya','Titulo','Juanjo','aaaa']
+  let textos= ['Lolo','Verde','Amarillo','Azul','Gris']
   for (let i = 0; i < numaleat; i++) {
     array.push(
       <div key={i + 1} className="cuadro">
